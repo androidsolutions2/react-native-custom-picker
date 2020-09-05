@@ -2,7 +2,7 @@
   "name": "react-native-custom-picker",
   "version": "0.4.0",
   "description": "React native customizable picker component.",
-  "main": "dist/index.js",
+  "main": "src/index.tsx",
   "typings": "typings/index.d.ts",
   "files": [
     "dist",
@@ -12,10 +12,6 @@
   "author": "Budi Adiono",
   "license": "MIT",
   "scripts": {
-    "lint": "tslint 'src/**/*.ts{,x}'",
-    "test": "npm run lint && jest",
-    "compile": "tsc -d --declarationDir ./typings",
-    "build": "rm -rf typings && npm run compile && prettier ./typings/**/*.d.ts --write"
   },
   "devDependencies": {
     "@types/enzyme": "^3.1.10",
