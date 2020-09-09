@@ -5,8 +5,7 @@
   "main": "src/index.tsx",
   "typings": "typings/index.d.ts",
   "files": [
-    "dist",
-    "typings"
+    "src"
   ],
   "repository": "https://github.com/budiadiono/react-native-custom-picker",
   "author": "Budi Adiono",
